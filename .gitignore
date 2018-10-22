@@ -15,6 +15,11 @@
 # Generated files
 .idea/**/contentModel.xml
 
+.idea/**
+gradle/**
+gradlew
+gradlew.bat
+
 # Sensitive or high-churn files
 .idea/**/dataSources/
 .idea/**/dataSources.ids
@@ -74,10 +79,7 @@ fabric.properties
 
 # *.iml
 # modules.xml
-.idea/misc.xml
-.idea/vcs.xml
-.idea/externalDependencies.xml
-.idea/compiler.xml
+# .idea/misc.xml
 # *.ipr
 
 # Sonarlint plugin
@@ -101,3 +103,6 @@ gradle-app.setting
 
 ### Gradle Patch ###
 **/build/
+
+
+# End of https://www.gitignore.io/api/gradle,intellij
